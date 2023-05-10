@@ -75,7 +75,7 @@ private static void divide(int[]ls1, int[] ls2) {
             ls[i] = ls1[i] / ls2[i];
         }
 
-    } catch (Exception ex) {
+    } catch (Exception e) {
         System.out.println(" WARNING !!! Exception !!!");
     }
     for(int j: ls){
