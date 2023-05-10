@@ -14,9 +14,11 @@ public class task3 {
     System.out.println("Enter string: ");
     Scanner scan = new Scanner(System.in);
     String st = scan.nextLine();
-    if(st==""){ 
-    throw new RuntimeException("String is empty, try again!");}
-    else{System.out.println("You string: " + st);}
+    if(st==""){  
+    throw new RuntimeException("String is empty, try again!");
+    }else{ 
+    System.out.println("You string: " + st);
+    }
     return st;
 }
 }
